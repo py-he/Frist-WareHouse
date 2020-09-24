@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.box{
+				height: 85px;
+				width: 140px;
+				/*background: aqua;*/
+				/*background: url(img/bird1.png);*/
+				
+				position: relative;
+				top: 0px;
+				left: 0px;
+		
+				animation: mybox 9s linear both;
+				
+			}
+			.box2{
+				height: 85px;
+				width: 140px;
+					background: url(img/bird1.png);
+						animation: mybox2 step-start 1s 6 both;
+			}
+				
+			@keyframes mybox2{
+				0%{background: url(img/bird1.png);}
+				12%{background: url(img/bird1.png);}
+				24%{background: url(img/bird2.png);}
+				36%{background: url(img/bird3.png) ;}
+				48%{background: url(img/bird4.png) ;}
+				60%{background: url(img/bird5.png) ;}
+				72%{background: url(img/bird6.png);}
+				84%{background: url(img/bird7.png) ;}
+				/*48%{background: url(img/bird8.png) ;left: 980px;}*/
+				100%{background: url(img/bird8.png) ;}
+				
+			}
+			@keyframes mybox{
+				0%{left: 0%;}
+				10%{left: 10%;}
+				20%{left: 20%;}
+				30%{left: 30%;}
+				40%{left: 40%;}
+				50%{left: 50%;}
+				60%{left: 60%;}
+				70%{left: 70%;}
+				80%{left: 80%;}
+				100%{left: 90%;}
+				}
+			/*@keyframes mybox{
+				0%{background: url(img/bird1.png);left: 0px;}
+				2%{background: url(img/bird1.png);left: 80px;}
+				4%{background: url(img/bird2.png);left: 140px;}
+				8%{background: url(img/bird3.png) ;left: 280px;}
+				16%{background: url(img/bird4.png) ;left: 420px;}
+				24%{background: url(img/bird5.png) ;left: 560px;}
+				32%{background: url(img/bird6.png);left: 700px;}
+				40%{background: url(img/bird7.png) ;left: 840px;}
+				/*48%{background: url(img/bird8.png) ;left: 980px;}
+				100%{background: url(img/bird8.png) ;left: 1200px;}
+				
+			}*/
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="box2">
+				
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,273 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		background: url(img/ia_100000015.jpg) no-repeat fixed 0px 0px/100% 100vh;
+	}
+	.box1{
+		height: 540px;
+	background: white;
+		text-align:center;
+		padding-bottom: 20px;
+		/*background: url(img/ia_100000002.jpg) 0px center/cover;*/
+	}
+	.logo{
+		display: block;
+		margin: 0 auto;
+		padding-top: 155px;
+		padding-bottom: 48px;
+		
+	}
+	.box1 p{
+		font-size: 40px;
+		font-weight: 500;
+		
+		margin-bottom: 10px;
+	}
+	.box1 span{
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.box1 p:last-child{
+	
+		position: relative;
+		bottom: -150px;
+		font-size: 13px;	
+		font-weight: 500;
+		color: rgb(0,0,0);
+	}
+	.box2{
+		height: 340px;
+		width: 100%;
+	
+		position: relative;
+		overflow: hidden;
+	
+	}
+	
+	.f1{
+		float: left;
+		background: url(img/ia_100000003.jpg)  center/100% 100%;
+		width: 25%;
+		height: 100%;
+		margin: 0 auto;
+		transition: all 0.5s ease;
+			overflow: hidden;
+	}
+	.f2{
+		float: left;
+		background: url(img/ia_100000004.jpg)  center/100% 100%;
+		width: 25%;
+		height: 100%;
+		margin: 0 auto;
+			transition: all 0.5s ease;
+			overflow: hidden;
+	}
+	.f3{
+		float: left;
+		background: url(img/ia_100000005.jpg) center/100% 100%;
+		width: 25%;
+		height: 100%;
+		margin: 0 auto;
+			transition: all 0.5s ease;
+			overflow: hidden;
+	}
+	.f4{
+		float: left;
+			width: 337px;
+		height: 337px;
+		background: url(img/ia_100000006.png) center/100% 100%;
+		width: 25%;
+		height: 100%;
+		
+			transition: all 0.5s ease;
+			overflow: hidden;
+	}
+	.f1:hover,.f2:hover,.f3:hover,.f4:hover{
+			/*background-position: center center;*/
+		background-size: 110% 110%;	
+	
+	}
+	.box3{
+		float: none;
+		height: 370px;
+	background:white;
+		text-align: center;
+		padding-top: 120px;
+	
+	}
+	.box3 span{
+		display: inline-block;	
+	font-size: 50px;
+	width: 585px;
+	}
+	.box4{
+		height: 210px;
+		background: rgb(243,243,243);
+		text-align: center;
+		
+	padding-left: 45px;
+		padding-right: 110px;
+	padding-top: 130px;
+	padding-bottom: 110px;
+	}
+	.box4 h6{
+		font-size: 36px;
+		font-weight: 500px;
+		padding-bottom: 36px;
+	}
+	.box4 h4{
+		font-size: 18px;
+		padding-bottom: 35px;
+	}
+	ul{
+		list-style: none;
+		
+	}
+	li{
+		width: 30%;
+		display: inline-block;
+	}
+	.box4 p{
+		width: 255px;
+		height: 112px;
+		font-size: 15px;
+		margin: 10px;
+	 color: rgb(85, 85, 85);
+	}
+	.box5{
+		height: 450px;
+			background:white;
+		text-align: center;
+		width: 100%;
+	}
+	.box5 h6{
+		
+		font-size: 36px;
+		font-weight: 500;
+		padding-top: 100px;
+		padding-bottom: 80px;	
+	}
+.liebiao li{
+	width: 20%;
+}
+/*.box6{
+	height: 700px;
+	/*background: url(img/ia_100000015.jpg) no-repeat 0px 10px/cover;
+	
+	text-align: center;
+	margin: 0 auto;
+
+}*/
+.box6-1{
+text-align: center;
+	height: 335px;
+	background: rgba(0,0,0,0.4);
+		padding-top: 77px;
+}
+.box6-1-1{
+	
+	width: 495px;
+	height: 185px;
+	position: relative;
+	margin: 0 auto;
+	
+}
+.box6-1-1 h6{
+	color: white;
+	font-size: 36px;
+	font-weight: 500;
+	padding-bottom: 40px;
+}
+
+.box6-1-1 span{
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+
+}
+.bor-left{
+	width: 230px;
+	height: 55px;
+	position: absolute;
+	left: 0;
+	line-height: 55px;
+	color: white;
+	
+	top: 150px;
+	border: solid 1.5px white;
+}
+.bor-right{
+	width: 230px;
+	height: 55px;
+	position: absolute;
+	right: 0;
+		line-height: 55px;
+	color: white;
+	
+	top: 150px;
+	border: solid 1.5px white;
+}
+.bor-left:hover,.bor-right:hover{
+	color: #000000;
+	background: white;
+}
+.box6-2{
+	height: 290px;
+	background: white;
+	text-align: center;
+	
+}
+.logo2{
+	margin-top: 65px;
+	margin-bottom: 20px;
+}
+.box6-2 p{
+	font-size: 13px;
+    color: rgb(85, 85, 85);
+}
+
+.box6-2 li{
+	width: 25px;
+	height: 25px;
+	margin: 30px 8px 10px 8px;
+	
+}
+.elf1{
+	width: 25px;
+	height: 25px;
+	/*display: inline;*/
+	background: url(img/ia_100000018.png) -48px -71px;
+}
+.elf2{
+	width: 25px;
+	height: 25px;
+	/*display: inline;*/
+	background: url(img/ia_100000018.png) -24px -71px;
+}
+.elf3{
+	width: 25px;
+	height: 25px;
+	/*display: inline;*/
+	background: url(img/ia_100000018.png) 0px -71px;
+}
+
+
+@media screen and (max-width:480px ) {
+	.box1 p{
+		font-weight: 500;
+		font-family: "宋体";
+		font-size: 30px;
+	}
+	.box1 p:last-child {
+    position: relative;
+    bottom: -115px;
+    }
+    .logo{
+	
+		padding-top: 155px;
+		padding-bottom: 48px;
+		
+	}
+}

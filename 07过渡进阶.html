@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.obox{
+				
+				width: 50px;
+				height: 250px;
+				background: rgb(49,53,61);
+				margin-top: 50px;
+			}
+			
+			.box1:nth-child(1){
+				width: 130px;
+				height: 50px;
+				left: -80px;
+				position: relative;
+				background: rgb(62,163,255);
+				
+				transition: all 1s;
+			}					
+			.box1{
+				width: 130px;
+				height: 50px;
+				left: -80px;
+				position: relative;
+				/*background: red;*/
+				
+				transition: all 1s;
+			}	
+			.box1:nth-child(4):hover{
+					left: -80px;		
+				background: rgb(62,163,255);
+			}
+			.box1:nth-child(4):hover .img2{
+			
+				display: block;
+				
+				
+			}
+			.box1:hover{
+				left: 0px;
+				background: rgb(62,163,255);
+			}
+			
+			.box1 span{
+				display: inline-block;
+				
+				width: 70px;
+				padding-right: 8px;
+				text-align: center;
+				line-height: 50px;
+			}
+			.box1 img{
+			padding: 9px;	
+			position: absolute;
+			}	
+			.img2{
+				position: absolute;
+				display: none;
+				left:150px;
+				top: -70px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="obox">
+			<div class="box1"><span>在线客服</span>
+				<img src="//www.qifeiye.com/qfy-content/uploads/2018/01/b4a3a24d65966978132a9c1ae38b678d.png"/>
+			</div>
+			
+			<div class="box1"><span>4006285729</span>
+				
+				<img src="//www.qifeiye.com/qfy-content/uploads/2018/01/b4a3a24d65966978132a9c1ae38b678d.png"/>
+			</div>
+			<div class="box1"><span>教程中心</span>
+				<img src="//www.qifeiye.com/qfy-content/uploads/2018/01/b4a3a24d65966978132a9c1ae38b678d.png"/>
+			</div>
+			<div class="box1"><span><img class="img2" height="150px" src="//www.qifeiye.com/qfy-content/uploads/2017/04/67e466f095ecaa029c88fcaa55b449d5.jpg"/></span>
+				<img src="//www.qifeiye.com/qfy-content/uploads/2018/01/b4a3a24d65966978132a9c1ae38b678d.png"/>
+			</div>
+			<div class="box1"><span>QQ客服</span>
+				<img src="//www.qifeiye.com/qfy-content/uploads/2018/01/b4a3a24d65966978132a9c1ae38b678d.png"/>
+			</div>
+		</div>
+	</body>
+</html>
